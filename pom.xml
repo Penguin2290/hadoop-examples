@@ -68,6 +68,12 @@
 			<version>2.5</version>
 			<configuration>
 				<outputDirectory>${basedir}</outputDirectory>
+				<archive>
+					<manifest>
+						<!-- Jar file entry point -->
+						<mainClass>org.smita.hadoop.mapreduce.ConfigurationPrinter</mainClass>
+					</manifest>
+				  </archive>
 			</configuration>
 		</plugin>
 	</plugins>
